@@ -406,6 +406,7 @@ const higherBMI =
 console.log(higherBMI);
 */
 
+/*
 // Lecture 43 | Iteration the for Loop
 
 // for loop keeps running while condition is TRUE
@@ -415,4 +416,50 @@ for (let i = 1; i <= 10; i++) {
 
 for (let i = 0; i < 10; i++) {
   console.log(`Iteration ${i}`);
+}
+*/
+
+// Lecture 45 | Looping Arrays, Breaking and Continuing
+
+const ziadArray = [
+  "Ziad",
+  "Nashaat",
+  2024 - 2003,
+  "CS Student",
+  ["Muhammed", "Ali", "Seif"],
+];
+const types = [];
+
+for (let i = 0; i < ziadArray.length; i++) {
+  console.log(ziadArray[i], typeof ziadArray[i]);
+
+  // types[i] = typeof ziadArray[i];
+  types.push(typeof ziadArray[i]);
+}
+
+console.log(types);
+
+const years = [2000, 1990, 2004, 2016, 1988];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  const currentYear = 2024;
+  ages.push(currentYear - years[i]);
+}
+
+console.log(years, ages);
+
+// continue and break
+console.log("--- ONLY STRINGS ---");
+for (let i = 0; i < ziadArray.length; i++) {
+  if (typeof ziadArray[i] !== "string") continue;
+
+  console.log(ziadArray[i], typeof ziadArray[i]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+for (let i = 0; i < ziadArray.length; i++) {
+  if (typeof ziadArray[i] === "number") break;
+
+  console.log(ziadArray[i], typeof ziadArray[i]);
 }
