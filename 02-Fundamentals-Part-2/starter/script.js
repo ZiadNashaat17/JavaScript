@@ -407,3 +407,12 @@ console.log(higherBMI);
 */
 
 // Lecture 43 | Iteration the for Loop
+
+// for loop keeps running while condition is TRUE
+for (let i = 1; i <= 10; i++) {
+  console.log(`Lifting weights repetition ${i}`);
+}
+
+for (let i = 0; i < 10; i++) {
+  console.log(`Iteration ${i}`);
+}
