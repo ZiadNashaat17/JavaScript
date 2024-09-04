@@ -306,7 +306,6 @@ const ziadObject = {
 };
 
 console.log(ziadObject);
-
 console.log(ziadObject.firstName);
 console.log(ziadObject["firstName"]);
 
@@ -373,6 +372,7 @@ console.log(ziadObject.age);
 ziadObject.getSummary();
 */
 
+/*
 // Coding Challenge #3
 const markObject = {
   fullName: "Mark Miller",
@@ -404,3 +404,6 @@ const higherBMI =
       }'s (${markObject.calcBMI()})!`;
 
 console.log(higherBMI);
+*/
+
+// Lecture 43 | Iteration the for Loop
