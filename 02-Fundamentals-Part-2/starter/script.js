@@ -306,7 +306,6 @@ const ziadObject = {
 };
 
 console.log(ziadObject);
-
 console.log(ziadObject.firstName);
 console.log(ziadObject["firstName"]);
 
