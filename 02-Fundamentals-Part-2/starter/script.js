@@ -466,6 +466,7 @@ for (let i = 0; i < ziadArray.length; i++) {
 }
 */
 
+/*
 // Lecture 45 | Looping Backwards and Loops in Loops
 const ziadArray = [
   "Ziad",
@@ -485,4 +486,28 @@ for (let excersice = 1; excersice <= 3; excersice++) {
   for (let rep = 1; rep <= 10; rep++) {
     console.log(`Repetition ${rep} in excersice ${excersice}`);
   }
+}
+*/
+
+// Lecture 46 | The while Loop
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weights repetition ${rep}`);
+// }
+
+let rep = 1;
+while (rep <= 10) {
+  console.log(`Lifting weights repetition ${rep}`);
+  rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+console.log(dice);
+
+while (dice !== 6) {
+  console.log(dice);
+
+  dice = Math.trunc(Math.random() * 6) + 1;
+
+  if (dice === 6) console.log("Loop is about to end...");
 }
