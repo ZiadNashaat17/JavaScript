@@ -419,7 +419,8 @@ for (let i = 0; i < 10; i++) {
 }
 */
 
-// Lecture 45 | Looping Arrays, Breaking and Continuing
+/*
+// Lecture 44 | Looping Arrays, Breaking and Continuing
 
 const ziadArray = [
   "Ziad",
@@ -462,4 +463,26 @@ for (let i = 0; i < ziadArray.length; i++) {
   if (typeof ziadArray[i] === "number") break;
 
   console.log(ziadArray[i], typeof ziadArray[i]);
+}
+*/
+
+// Lecture 45 | Looping Backwards and Loops in Loops
+const ziadArray = [
+  "Ziad",
+  "Nashaat",
+  2024 - 2003,
+  "Student",
+  ["Ali", "Muhammed", "Seif"],
+  true,
+];
+
+for (let i = ziadArray.length - 1; i >= 0; i--) {
+  console.log(i, ziadArray[i]);
+}
+
+for (let excersice = 1; excersice <= 3; excersice++) {
+  console.log(`------Starting Excersice ${excersice}-------`);
+  for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Repetition ${rep} in excersice ${excersice}`);
+  }
 }
