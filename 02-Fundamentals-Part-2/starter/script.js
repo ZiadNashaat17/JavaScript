@@ -489,6 +489,7 @@ for (let excersice = 1; excersice <= 3; excersice++) {
 }
 */
 
+/*
 // Lecture 46 | The while Loop
 // for (let rep = 1; rep <= 10; rep++) {
 //   console.log(`Lifting weights repetition ${rep}`);
@@ -511,3 +512,37 @@ while (dice !== 6) {
 
   if (dice === 6) console.log("Loop is about to end...");
 }
+*/
+
+// Coding Challenge #4
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+const calcTip = function (billValue) {
+  const tipValue =
+    billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2;
+  return tipValue;
+};
+
+for (let i = 0; i < bills.length; i++) {
+  const tip = calcTip(bills[i]);
+  tips.push(tip);
+  totals.push(tip + bills[i]);
+}
+
+console.log(bills);
+console.log(tips);
+console.log(totals);
+
+const calcAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+};
+
+console.log(`Average of bills: ${calcAverage(bills)}`);
+console.log(`Average of tips: ${calcAverage(tips)}`);
+console.log(`Average of totals: ${calcAverage(totals)}`);
