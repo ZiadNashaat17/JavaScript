@@ -54,6 +54,7 @@ console.log(thirdCountry);
 
 /*
 // Lecture 31 | Function Delarations vs Expressions
+
 // function declaration can be invoked before being declared, but function expression can't be invoked before being declared. 
 // Function declaration
 function calcAge1(birthYear) {
@@ -101,6 +102,7 @@ console.log(country3);
 */
 /*
 // Lecture 32 | Arrow Functions
+
 const calcAge3 = (birthYear) => 2024 - birthYear;
 
 const age3 = calcAge3(2003);
@@ -246,6 +248,7 @@ console.log(ages);
 */
 /*
 // Lecture 37 | Array Methods
+
 const friends = ["Omar", "Ali", "Muhammed"];
 
 // Add element
