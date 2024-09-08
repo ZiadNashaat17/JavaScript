@@ -13,6 +13,7 @@ if (hasDriversLicense) console.log("I can drive now.");
 
 /*
 // Lecture 30 | Functions
+
 function logger() {
   console.log("My name is Ziad");
 }
