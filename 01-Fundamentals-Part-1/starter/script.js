@@ -19,6 +19,7 @@ console.log(myFirstJob);
 console.log(mySecondJog);
 
 // Lecture 8 Assignment
+
 let country = "Egypt";
 let continent = "Africa";
 let population = "120";
@@ -31,6 +32,7 @@ console.log(population);
 /*
 
 // Data Types Lecture
+
 let javaScriptIsFun = true;
 console.log(javaScriptIsFun);
 
@@ -55,6 +57,7 @@ let nullVariable = null;
 console.log(typeof nullVariable);
 
 // Lecture 9 Assignment
+
 let country = "Egypt";
 let continent = "Africa";
 let population = "120";
@@ -69,6 +72,7 @@ console.log(typeof language);
 
 /*
 // Lecture 10
+
 let age = 20;
 age = 21;
 
@@ -78,6 +82,7 @@ const birthYear = 2003;
 var lastName = "Nashaat";
 
 // Lecture 10 Assignment
+
 const country = "Egypt";
 const continent = "Africa";
 let population = "120";
@@ -132,6 +137,7 @@ console.log(isMalekFullAge);
 console.log(currentYear - 2003 > currentYear - 2017);
 
 // Lecture 11 Assignment
+
 let population = 120;
 const populationOfEachHalf = population / 2;
 
@@ -153,6 +159,7 @@ console.log(description);
 
 /*
 // Lecture 12
+
 const currentYear = 2034;
 const ageZiad = currentYear - 2003;
 const ageMalek = currentYear - 2017;
@@ -191,6 +198,7 @@ console.log(markHigherBMI);
 
 /*
 // Lecture 14
+
 const firstName = "Ziad";
 const lastName = "Nashaat";
 const job = "Software Engineer";
@@ -226,6 +234,7 @@ lines
 String`);
 
 // Lecture 14 Assignment
+
 const country = "Egypt";
 const continent = "Africa";
 let population = "120";
@@ -239,6 +248,7 @@ console.log(description);
 
 /*
 // Lecture 15
+
 const age = 15;
 
 if (age >= 18) {
@@ -260,6 +270,7 @@ if (birthYear <= 2000) {
 console.log(century);
 
 // Lecture 15 Assignment
+
 const country = "Egypt";
 const population = 120;
 
@@ -330,6 +341,7 @@ console.log(n);
 
 /*
 // Lecture 18
+
 // 5 falsy values: 0, '', undefined, null, NaN. Anything else is truthy value
 console.log(Boolean("0")); // falsy value
 console.log(Boolean("Ziad")); // truthy value
@@ -365,6 +377,7 @@ if (favouriteNumber !== 18) {
   console.log("Number is not 18!");
 }
 // Lecture 19 Assignment
+
 const numNeighbours = Number(
   prompt("How many neighbour countries does your country have?")
 );
@@ -379,6 +392,7 @@ if (numNeighbours === 1) {
 */
 /*
 // Lecture 21
+
 const hasDriverLicense = true;
 const hasGoodVision = true;
 
@@ -431,6 +445,7 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
 */
 /*
 // Lecture 23
+
 const day = "sunday";
 
 switch (day) {
@@ -476,6 +491,7 @@ if (day === "sunday") {
 */
 /*
 // Lecture 24
+
 const age = 21;
 const fullAge = age >= 18 ? true : false;
 
