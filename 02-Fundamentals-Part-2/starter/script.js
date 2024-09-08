@@ -468,6 +468,7 @@ for (let i = 0; i < ziadArray.length; i++) {
 
 /*
 // Lecture 45 | Looping Backwards and Loops in Loops
+
 const ziadArray = [
   "Ziad",
   "Nashaat",
@@ -491,11 +492,13 @@ for (let excersice = 1; excersice <= 3; excersice++) {
 
 /*
 // Lecture 46 | The while Loop
+
 // for (let rep = 1; rep <= 10; rep++) {
 //   console.log(`Lifting weights repetition ${rep}`);
 // }
 
 let rep = 1;
+
 while (rep <= 10) {
   console.log(`Lifting weights repetition ${rep}`);
   rep++;
@@ -515,6 +518,7 @@ while (dice !== 6) {
 */
 
 // Coding Challenge #4
+
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
 const totals = [];
