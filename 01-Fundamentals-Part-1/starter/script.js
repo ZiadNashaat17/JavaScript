@@ -46,6 +46,7 @@ javaScriptIsFun = "YES!";
 console.log(typeof javaScriptIsFun);
 
 let year;
+
 console.log(year);
 console.log(typeof year);
 
