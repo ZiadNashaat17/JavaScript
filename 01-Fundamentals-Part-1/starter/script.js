@@ -33,6 +33,7 @@ console.log(population);
 // Data Types Lecture
 
 let javaScriptIsFun = true;
+
 console.log(javaScriptIsFun);
 
 console.log(typeof true);
