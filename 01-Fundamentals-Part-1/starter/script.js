@@ -42,6 +42,7 @@ console.log(typeof 23);
 console.log(typeof "Ziad");
 
 javaScriptIsFun = "YES!";
+
 console.log(typeof javaScriptIsFun);
 
 let year;
