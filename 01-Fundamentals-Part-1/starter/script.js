@@ -6,7 +6,6 @@ let firstName = "Ziad";
 let secondName = "Nashaat";
 
 console.log(40);
-
 console.log(firstName);
 console.log(secondName);
 
