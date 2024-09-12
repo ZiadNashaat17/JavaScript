@@ -56,6 +56,7 @@ console.log(typeof year);
 console.log(typeof null);
 
 let nullVariable = null;
+
 console.log(typeof nullVariable);
 
 // Lecture 9 Assignment
