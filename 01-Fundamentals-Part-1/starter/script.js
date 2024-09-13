@@ -131,6 +131,7 @@ x--;
 console.log(x);
 
 // Comparison operators
+
 console.log(ageZiad > ageMalek);
 console.log(ageMalek >= 18);
 
