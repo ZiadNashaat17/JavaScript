@@ -136,6 +136,7 @@ console.log(ageZiad > ageMalek);
 console.log(ageMalek >= 18);
 
 const isMalekFullAge = ageMalek >= 18;
+
 console.log(isMalekFullAge);
 
 console.log(currentYear - 2003 > currentYear - 2017);
