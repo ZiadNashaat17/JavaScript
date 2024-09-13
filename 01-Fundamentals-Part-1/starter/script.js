@@ -149,6 +149,7 @@ const populationOfEachHalf = population / 2;
 console.log(populationOfEachHalf);
 
 population++;
+
 console.log(population);
 
 const isMoreThanFinland = population > 6;
