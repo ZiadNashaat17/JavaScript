@@ -157,6 +157,7 @@ const isMoreThanFinland = population > 6;
 console.log(isMoreThanFinland);
 
 const isLessThanAverage = population < 33;
+
 console.log(isLessThanAverage);
 
 const description =
