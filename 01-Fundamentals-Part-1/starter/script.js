@@ -162,6 +162,7 @@ console.log(isLessThanAverage);
 
 const description =
   "Egypt is in Africa, and its 120 million people speaks Arabic";
+  
 console.log(description);
 */
 
