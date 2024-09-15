@@ -153,6 +153,7 @@ population++;
 console.log(population);
 
 const isMoreThanFinland = population > 6;
+
 console.log(isMoreThanFinland);
 
 const isLessThanAverage = population < 33;
