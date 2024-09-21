@@ -186,6 +186,7 @@ console.log(ageZiad, ageMalek, averageAge);
 
 /*
 // Coding Challenge #1
+
 // const massMark = 78;
 // const heightMark = 1.69;
 // const massJohn = 92;
