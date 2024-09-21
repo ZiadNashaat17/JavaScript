@@ -180,6 +180,7 @@ x = y = 25 - 10 - 5;
 console.log(x, y);
 
 const averageAge = (ageZiad + ageMalek) / 2;
+
 console.log(ageZiad, ageMalek, averageAge);
 */
 
