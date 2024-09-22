@@ -205,6 +205,7 @@ console.log(massMark, heightMark);
 console.log(massJohn, heightJohn);
 console.log(BMIMark, BMIJohn);
 console.log(markHigherBMI);
+
 */
 
 /*
