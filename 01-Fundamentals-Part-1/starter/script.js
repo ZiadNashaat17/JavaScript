@@ -333,6 +333,7 @@ if (BMIMark > BMIJohn) {
 
 // type conversion
 const inputYear = "2003";
+
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 
