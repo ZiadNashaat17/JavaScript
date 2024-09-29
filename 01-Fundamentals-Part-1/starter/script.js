@@ -338,7 +338,6 @@ console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
 console.log(Number("Ziad"));
 console.log(typeof NaN);
-
 console.log(String(23), 23);
 
 // type coercion
