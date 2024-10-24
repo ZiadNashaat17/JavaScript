@@ -77,3 +77,20 @@ const ziad = {
 ziad.greet();
 ziad.calcAge();
 */
+/*
+let age = 20;
+let oldAge = age;
+age = 21;
+console.log(age);
+console.log(oldAge);
+
+const me = {
+  firstName: 'Ziad',
+  age: 21,
+};
+const friend = me;
+friend.age = 22;
+
+console.log('Friend', friend);
+console.log('Me', me);
+*/
