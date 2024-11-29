@@ -24,3 +24,11 @@ const jack = new Person('Jack', 2010);
 console.log(matilda, jack);
 
 console.log(ziad instanceof Person);
+
+console.log(Person.prototype);
+
+Person.prototype.calcAge = function () {
+  console.log(2024 - this.birthYear);
+};
+
+ziad.calcAge();
